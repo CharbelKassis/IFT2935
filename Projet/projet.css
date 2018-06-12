@@ -1,0 +1,162 @@
+.key  {
+	
+	text-decoration: underline;
+}
+
+#technologies {
+	
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 11;
+	margin-left: 10%;
+	margin-right: 5%;
+	page-break-after: always;
+
+}
+
+#technologies > p{
+	
+	text-align: justify;
+	
+}
+
+#mer {
+	
+	page-break-after: always;
+}
+
+#mr {
+	
+	page-break-after: always;
+}
+
+#mr > p {
+	
+	padding-left: 10%; 
+	padding-right: 10%;
+	text-align: justify;
+}
+
+ol {
+    counter-reset: item;
+}
+
+ol li {
+    display: block;
+    position: relative;
+}
+ol li:before {
+    content: counters(item, ".")".";
+    counter-increment: item;
+    position: absolute;
+    margin-right: 100%;
+    right: 10px; /* space between number and text */
+}
+
+header {
+	
+	margin-top: 20%;
+	text-align: center;
+	font-size: 40px;
+	page-break-inside: avoid;
+	page-break-after: always;
+}
+
+summary {
+	
+	page-break-inside: avoid;
+	page-break-after: always;
+	
+}
+
+summary  p {
+	
+	text-align: justify;
+	/*font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;*/
+	font-size: 20pt;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+pre {
+	
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 11;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+figure {
+	
+	text-align: center;
+	padding-top: 5%;
+	page-break-inside: avoid;
+
+}
+
+img {
+	
+	border: solid black 2px;
+	width: 90%;
+	height: 90%;
+}
+
+article {
+	
+	margin-top: 10%;
+}
+
+p {
+	
+	margin-left: 1%;
+}
+section {
+	
+	background-color: white;
+	margin-bottom: 2%;
+	font-family: sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+	border: solid black 2px;
+	border-radius: 10px;
+	page-break-inside: avoid;
+}
+
+li {
+	
+	margin: 1%;
+	padding-bottom: 5px;
+}
+
+h1 {
+	
+	text-align: center;
+	border-bottom: solid black 2px;
+	font-size: 30pt;
+	font-family: 'Lobster', Georgia, Times, serif;
+}
+
+h2 {
+	
+	text-align: center;
+	font-size: 25pt;
+	font-family: 'Lobster', Georgia, Times, serif;
+	
+}
+
+h3 {
+	
+	color: red;
+	font-size: 20pt;
+	border-bottom: solid black 2px;
+	text-align: center;
+	position: relative;
+	letter-spacing: 2px;
+
+}
+
+h4 {
+	
+	font-style: italic;
+	font-size: 10pt;
+	margin: 1%;
+}
